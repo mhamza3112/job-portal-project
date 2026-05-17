@@ -29,30 +29,28 @@
 
 ## 📁 Project Structure
 
-job-portal-project/
-│
-├── backend/
-│   ├── src/
-│   │   ├── config/
-│   │   ├── controllers/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   ├── middleware/
-│   │   ├── app.js
-│   │   └── server.js
-│   │
-│   ├── .env
-│   ├── package.json
-│
-├── frontend/
-│   ├── index.html
-│   ├── jobs.html
-│   ├── apply.html
-│   ├── style.css
-│   └── script.js
-│
-└── postman/
-    └── JobPortalAPI.postman_collection.json
+job-portal-project
+→ backend
+   → src
+      → config
+      → controllers
+      → models
+      → routes
+      → middleware
+      → app.js
+      → server.js
+   → .env
+   → package.json
+
+→ frontend
+   → index.html
+   → jobs.html
+   → apply.html
+   → style.css
+   → script.js
+
+→ postman
+   → JobPortalAPI.postman_collection.json
 
 ---
 
